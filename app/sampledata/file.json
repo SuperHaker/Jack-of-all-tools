@@ -1,0 +1,37 @@
+//Mock data to show in list preview
+
+{
+    "activities": [
+        {
+            "icon": "A",
+            "name": "Android",
+            "owner": "Andy Rubin"
+        },
+
+        {
+            "icon": "F",
+            "name": "Facebook",
+            "owner": "Mark Zuckerberg"
+        },
+        {
+
+            "icon": "T",
+            "name": "Twitter",
+            "owner": "Jack Dorsey"
+        },
+
+        {
+
+            "icon": "L",
+            "name": "LinkedIn",
+            "owner": "Reid Hoffman"
+        },
+
+        {
+            "icon": "W",
+            "name": "WhatsApp",
+            "owner": "Brian Acton"
+        }
+
+    ]
+}

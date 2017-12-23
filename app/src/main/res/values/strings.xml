@@ -1,0 +1,8 @@
+<!-- tools:locale demo -->
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="fr">
+    <string name="app_name">GDG Demo</string>
+    <string name="enjoy_your_meal">Bon appetit</string>
+
+</resources>

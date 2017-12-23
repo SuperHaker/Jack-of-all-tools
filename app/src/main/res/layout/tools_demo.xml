@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- tools:context demo -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <!--@tools:sample/ demo -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:onClick="doSomeStuff"
+        android:textColor="#000"
+        android:textSize="30sp"
+        tools:text="@tools:sample/last_names"
+        />
+
+    <!-- tools:ignore demo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="contentDescription"
+        />
+
+
+    <!-- tools:targetApi demo -->
+    <ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:color="@color/accent_color"
+        tools:targetApi="LOLLIPOP"
+        />
+
+    <!-- tools:layout demo -->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/list_item"
+        />
+
+
+</LinearLayout>
